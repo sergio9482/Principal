@@ -1,0 +1,15 @@
+.footer{
+    background-color: aquamarine;
+    color: white;
+    & h2{
+        color: red;
+    }
+    .text{
+        color: darkgoldenrod;
+    }
+
+}
+/*.footer h2{
+    color: red;
+    es lo mismo que poner & h2 dentro del padre
+}*/

@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 150px;
+
+}
+.menu {
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: bold;
+}
+.artic{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.img_article{
+    width: 100px;
+}
+.seccion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.articulo1{
+    order: 1;
+    
+}
+.articulo2{
+    order: 0;
+}
+.articulo3{
+    order: 2;
+}

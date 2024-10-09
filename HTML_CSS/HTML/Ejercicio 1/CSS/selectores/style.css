@@ -1,0 +1,28 @@
+header{
+    background-color:cadetblue ;
+
+}
+main{
+    background-color: aliceblue;
+}
+
+.titulo{
+    color: darkred;
+    font-size: 40px;
+}
+.publicidad{
+    color:darkred;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#footer{
+    background-color: cornflowerblue;
+    font-size: 10px;
+    color:crimson;
+    font-family: cursive;
+}

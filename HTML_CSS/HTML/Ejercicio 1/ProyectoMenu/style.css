@@ -1,0 +1,97 @@
+
+@media(width<1024px){
+
+}
+
+.navegador{
+    width: 100%;
+}
+body{
+    width: 100%;
+    margin: auto;
+    padding: 0%;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+.contacto{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(38, 37, 37);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a{
+        color: chocolate;
+        font-size: 20px;
+    }
+}
+.rovers{
+    width: 20%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.background{
+    width: 100%;
+    background-image:url(./images/fondo.jpg);
+    background-position-y: 70%;
+    background-position-x: 50%;
+    background-size: 240%;
+
+    
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    
+    
+        h2{
+            color: white;
+            font-size: bolder;
+            margin-top:50%;
+            margin-bottom:0;
+    
+        }
+        h3{
+            color: rgb(255, 106, 0);
+            filter: brightness(1);
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        h4{
+            color: white;
+            margin-top: 0%;
+          
+        }
+        .botonCarta{
+            width: fit-content;
+            height: 40px;
+            background-color: chocolate;
+            margin-bottom: 33%;
+            a{
+                color: white;
+                text-decoration: none;
+                align-items: center;
+            }
+        }
+       
+
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+li{
+    list-style: none;
+}

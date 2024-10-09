@@ -1,0 +1,21 @@
+.img{
+    width: 100%;
+    height: auto;
+}
+h2{
+    background-color: blue;
+    color: yellow;
+    width: 100px;
+}
+h3{
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.caja{
+    width: 20%;
+    margin: 0px;
+    border: solid 2px black;
+}

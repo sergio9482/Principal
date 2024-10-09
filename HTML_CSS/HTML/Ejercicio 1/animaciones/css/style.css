@@ -1,0 +1,69 @@
+@keyframes agrandar{
+
+
+    0%{
+        font-size: 10px;
+        color: red;
+        transform: rotate(0deg);
+    }
+    33%{
+        font-size: 15px;
+        color: orange;
+        transform: rotate(180deg);
+    }
+    66%{
+        font-size: 20px;
+        color: yellow;
+        transform: rotate(240deg);
+    }
+    100%{
+        font-size: 25px;
+        color: white;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bajar {
+    from{
+        transform: translateY(-200px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.header{
+    .menu{
+        border: 1px solid red;
+        h3{
+            background-color: aqua;
+            display: inline;
+            transition: background-color 3s ease-in, color 2s ease-out, font-size 0.5s linear;
+            /*transition: all 3s;
+            transition: ease-in, ease-in-out;*/
+        }
+        h3:hover{
+            background-color: black;
+            color: white;
+            font-size: 15px;
+        }
+        h2{
+            transform: translateY(0px);
+            animation: bajar 3s 1 ;
+        }
+    }
+}
+.footer{
+    background-color: aquamarine;
+    color: brown;
+    border: 2px solid black;
+
+    h2{
+        color: blueviolet;
+        animation: agrandar 5s ease-in-out alternate infinite;
+        display: inline-block;
+    }
+    .text{
+        color: yellow;
+    }
+}

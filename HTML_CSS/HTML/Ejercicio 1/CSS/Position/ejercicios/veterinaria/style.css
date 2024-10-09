@@ -1,0 +1,60 @@
+/*html{
+    font-family: "Roboto";
+}*/
+/*caracteristicas que se ponen a todo el documento*/
+:root{
+    font-family: "Roboto";
+}
+body{
+    background-color: rgb(229, 229, 229);
+}
+
+main{
+    height: 100vh;
+    
+}
+.content{
+    background-color: aqua;
+    width: 69%;
+    display: inline-block;
+}
+.aside{
+    background-color: burlywood;
+    width: 30%;
+    display: inline-block;
+}
+.title{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.iconi{
+    color: orange;
+}
+.iconf{
+    color: rgb(79, 79, 244);
+}
+.icony{
+    color: red;
+}
+.iconf:hover{
+    color: blue;
+    font-size: 32px;
+}
+.iconi:hover{
+    color: rgb(253, 184, 54);
+    font-size: 32px;
+}
+.icony:hover{
+    color: rgb(208, 3, 3);
+    font-size: 32px;
+}
+
+
+.redes li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 30px;
+}
+
+/* hover--> accion al realizar al pasar el raton*/
